@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Avalonia.0.10.15\build\Avalonia.props" Condition="Exists('..\packages\Avalonia.0.10.15\build\Avalonia.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7888BC1-1A10-4069-A918-77343EBFF312}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Property_Management_System.My.MyApplication</StartupObject>
+    <RootNamespace>Property_Management_System</RootNamespace>
+    <AssemblyName>Property Management System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Property Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Property Management System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Gold Graphic K Letter Real Estate Logo Template.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Avalonia, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Animation, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Animation.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Base, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Controls, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.DesignerSupport, Version=0.7.0.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.DesignerSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.DesktopRuntime, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.DesktopRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Dialogs, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Input, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Interactivity, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Layout, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Markup, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Markup.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Markup.Xaml, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Markup.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.MicroCom, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.MicroCom.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.OpenGL, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.OpenGL.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.ReactiveUI, Version=0.10.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.ReactiveUI.0.10.15\lib\netstandard2.0\Avalonia.ReactiveUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Remote.Protocol, Version=0.10.15.0, Culture=neutral, PublicKeyToken=7ecde292c616a9f3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.Remote.Protocol.0.10.15\lib\netstandard2.0\Avalonia.Remote.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Styling, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Styling.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Themes.Default, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Themes.Default.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Themes.Fluent, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Themes.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Visuals, Version=0.10.15.0, Culture=neutral, PublicKeyToken=c8d484a7012f9a8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Avalonia.0.10.15\lib\net461\Avalonia.Visuals.dll</HintPath>
+    </Reference>
+    <Reference Include="BCrypt.Net, Version=0.1.4141.31969, Culture=neutral, PublicKeyToken=f3bc8f8c31beeb49, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>C:\Users\Ishan\Downloads\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevOne.Security.Cryptography.BCrypt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.1.0.0.0\lib\DevOne.Security.Cryptography.BCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicData, Version=7.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicData.7.1.1\lib\net461\DynamicData.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.19.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Annotations, Version=10.3.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.10.3.0\lib\net\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.29\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactiveUI, Version=13.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReactiveUI.13.2.10\lib\net472\ReactiveUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Splat.10.0.1\lib\net461\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.5.0.0\lib\net472\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.29\lib\net48\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.29\lib\net48\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Customers.Designer.vb">
+      <DependentUpon>Add Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Property.Designer.vb">
+      <DependentUpon>Add Property.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Property.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAgent.Designer.vb">
+      <DependentUpon>AddAgent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddAgent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Advertisements.Designer.vb">
+      <DependentUpon>Advertisements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Advertisements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agent Details.Designer.vb">
+      <DependentUpon>Agent Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agent Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agents.Designer.vb">
+      <DependentUpon>Agents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agreements.Designer.vb">
+      <DependentUpon>Agreements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agreements.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="appointment.vb" />
+    <Compile Include="CreateAccount.Designer.vb">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.vb">
+      <DependentUpon>Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEncrypt.vb" />
+    <Compile Include="DataGrid.vb" />
+    <Compile Include="DB.vb" />
+    <Compile Include="Edit Customer.Designer.vb">
+      <DependentUpon>Edit Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decrypt.vb" />
+    <Compile Include="Encryption.vb" />
+    <Compile Include="frmDisplayAppointment.Designer.vb">
+      <DependentUpon>frmDisplayAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisplayAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageAppointment.Designer.vb">
+      <DependentUpon>frmManageAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetCode.Designer.vb">
+      <DependentUpon>GetCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GetCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginInfo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PastSales.Designer.vb">
+      <DependentUpon>PastSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PastSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payments.Designer.vb">
+      <DependentUpon>Payments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties.Designer.vb">
+      <DependentUpon>Properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Property Data.Designer.vb">
+      <DependentUpon>Property Data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Property Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Property Functions.vb" />
+    <Compile Include="ResetPassword.Designer.vb">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Prompt.Designer.vb">
+      <DependentUpon>Sales Prompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Prompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.vb">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLfunctions.vb" />
+    <Compile Include="Subs.vb" />
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validations.vb" />
+    <Compile Include="AppoinmentDetails.Designer.vb">
+      <DependentUpon>AppoinmentDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppoinmentDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAppointments.Designer.vb">
+      <DependentUpon>ViewAppointments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAppointments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Customers.resx">
+      <DependentUpon>Add Customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Property.resx">
+      <DependentUpon>Add Property.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAgent.resx">
+      <DependentUpon>AddAgent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agent Details.resx">
+      <DependentUpon>Agent Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agents.resx">
+      <DependentUpon>Agents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agreements.resx">
+      <DependentUpon>Agreements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Customer.resx">
+      <DependentUpon>Edit Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisplayAppointment.resx">
+      <DependentUpon>frmDisplayAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageAppointment.resx">
+      <DependentUpon>frmManageAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetCode.resx">
+      <DependentUpon>GetCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PastSales.resx">
+      <DependentUpon>PastSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payments.resx">
+      <DependentUpon>Payments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties.resx">
+      <DependentUpon>Properties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Property Data.resx">
+      <DependentUpon>Property Data.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPassword.resx">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Prompt.resx">
+      <DependentUpon>Sales Prompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppoinmentDetails.resx">
+      <DependentUpon>AppoinmentDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAppointments.resx">
+      <DependentUpon>ViewAppointments.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gold Graphic K Letter Real Estate Logo Template.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Avalonia.0.10.15\build\Avalonia.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Avalonia.0.10.15\build\Avalonia.props'))" />
+    <Error Condition="!Exists('..\packages\Avalonia.0.10.15\build\Avalonia.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Avalonia.0.10.15\build\Avalonia.targets'))" />
+  </Target>
+  <Import Project="..\packages\Avalonia.0.10.15\build\Avalonia.targets" Condition="Exists('..\packages\Avalonia.0.10.15\build\Avalonia.targets')" />
+</Project>

@@ -1,0 +1,122 @@
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Property Management System.exe.config
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Property Management System.exe
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Property Management System.pdb
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Property Management System.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Animation.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Base.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Controls.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.DesignerSupport.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.DesktopRuntime.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Dialogs.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Input.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Interactivity.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Layout.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Markup.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Markup.Xaml.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.MicroCom.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.OpenGL.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.ReactiveUI.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Remote.Protocol.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Styling.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Themes.Default.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Themes.Fluent.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Visuals.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\BouncyCastle.Crypto.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\DynamicData.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Google.Protobuf.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Guna.UI2.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\JetBrains.Annotations.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Compression.LZ4.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Hash.xxHash.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\MetroFramework.Design.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\MetroFramework.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\MetroFramework.Fonts.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\MySql.Data.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\ReactiveUI.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Splat.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Buffers.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Memory.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Numerics.Vectors.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Reactive.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.ValueTuple.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Ubiety.Dns.Core.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\ZstdNet.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Animation.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Base.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Controls.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.DesignerSupport.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.DesktopRuntime.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Dialogs.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Input.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Interactivity.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Layout.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Markup.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Markup.Xaml.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.MicroCom.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.OpenGL.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.ReactiveUI.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Remote.Protocol.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Styling.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Themes.Default.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Themes.Fluent.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Avalonia.Visuals.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\DynamicData.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Google.Protobuf.pdb
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Google.Protobuf.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\JetBrains.Annotations.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Compression.LZ4.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\K4os.Hash.xxHash.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\MySql.Data.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\ReactiveUI.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\Splat.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Buffers.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Memory.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Numerics.Vectors.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Reactive.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\System.ValueTuple.xml
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Real Estate Management System.vbproj.AssemblyReference.cache
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Real Estate Management System.vbproj.SuggestedBindingRedirects.cache
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Add_Property.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.CreateAccount.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Login.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Dashboard.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Resources.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Payments.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Properties.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.PropertyData.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Real Estate Management System.vbproj.GenerateResource.cache
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Real Estate Management System.vbproj.CoreCompileInputs.cache
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Real Estate Management System.vbproj.CopyComplete
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property Management System.exe
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property Management System.xml
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property Management System.pdb
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Add_Customers.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Customers.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.test.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Edit_Customer.resources
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\BCrypt.Net.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\DevOne.Security.Cryptography.BCrypt.dll
+D:\ICT222\Project\Library Management System\Library Management System\bin\Debug\BCrypt.Net.xml
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.frmDisplayAppointment.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.frmManageAppointment.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.About.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.GetCode.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.ResetPassword.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.ViewAppointments.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.AppoinmentDetails.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Agents.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Agent_Details.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.AddAgent.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Sales_Prompt.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Sales.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.PastSales.resources
+D:\ICT222\Project\Library Management System\Library Management System\obj\Debug\Property_Management_System.Agreements.resources
